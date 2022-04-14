@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(186,221,243);
+    font-family: 'Open Sans',sans-serif;
+    
+}
+.boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.box {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 36px 1fr 100px;
+    align-items: center;
+    gap: 14px;
+    border-radius: 16px;
+    padding: 16px;
+    transition: all .3s;   
+}
+.box:hover{
+    box-shadow: 16px 20px 29px rgba(0, 0, 0, 0.21);
+    transform: scale(1.1);
+}
+.number {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dcdedf;
+    font-size: 14px;
+    font-weight: 700;
+}
+.content {
+    width: 100%;
+}
+.music-name {
+    font-weight: 700;
+    font-size: 16px;
+    color: #232526;
+}
+.time-bar {
+    font-size: 12px;
+    color: #a5a7a9;
+    margin-top: 4px;
+}
+.status {
+    text-align: right;
+    font-size: 12px;
+    font-weight: 700;
+    color: #51c3fe;
+}
